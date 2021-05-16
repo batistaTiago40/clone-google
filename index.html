@@ -5,41 +5,48 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <title>Ui-Clone Google</title>
+  <title>Google</title>
 </head>
 <body>
   <header class="menu">
-    <div class="menu__section left">
-      <img src="assets/burger-icon.svg" alt="Burguer" class="menu__icon">
-      <a href="#" class="menu__link active">All</a>
-      <a href="#" class="menu__link">Images</a>
+    <div class="menu__items left">
+      <img src="img/burger-icon.svg" alt="Burguer" class="menu__burguer">
+      <a href="#" class="menu__active">Todas</a>
+      <a href="#">Imagens</a>
     </div>
-    <div class="menu__section right">
-      <img src="assets/more-icon.svg" alt="More" class="menu__icon">
-      <div class="menu__profile">
-        <img src="assets/circle-frame.svg" alt="Circle" class="menu__avatar--frame">
-        <img src="assets/avatar.png" alt="" class="menu__avatar">
-      </div>
+    <div class="menu__items right">
+      <img src="img/more-icon.svg" alt="More" class="menu__more">
+      <img src="img/profile.png" alt="Profile" class="menu__profile">
     </div>
   </header>
   <main class="content">
-    <img src="assets/logo.svg" alt="Logo" class="content__logo">
-    <input type="text" class="content__search">
-    <div class="content__offer">
-      Made with love by 
-      <a href="https://github.com/batistaTiago40" target="_blank">Tiago Batista</a>
-      for studying purposes.
+    <div class="content__main">
+      <img src="img/logo.png" alt="Logo" class="content__logo">
+      <input type="text" class="content__search">
+      <p class="content__disp">Diponibilizado pelo Google em: <a href="#">English</a></p>
+    </div>
+    <div class="content__sub">
+      <div class="content__country">
+        <span>Brasil</span>
+      </div>
+      <div class="content__location">
+        <ul><li><strong>Desconhecido</strong> - Usar local exato</li></ul>
+      </div>
     </div>
   </main>
-
   <footer class="footer">
-    <div class="footer__section footer__location">
-      <span>Brazil</span>
-    </div>
-    <div class="footer__section footer__links">
-      <a href="#">Settings</a>
-      <a href="#">Privacy</a>
-      <a href="#">Terms</a>
+    
+    <div class="footer__options">
+      <ul>
+        <li>Configurações</li>
+        <li>Privacidade</li>
+        <li>Termos</li>
+      </ul>
+      <ul>
+        <li>Publicidade</li>
+        <li>Negócios</li>
+        <li>Sobre</li>
+      </ul>
     </div>
   </footer>
 </body>
